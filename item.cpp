@@ -157,7 +157,7 @@ int main()
       system("cls");
       cout<<"\nThe Data Entered by you is:-";
       s1.DispData();
-      cout<<"\nDo you want to insert more records?(y/n):";
+      cout<<"\nDo you want to insert some more records?(y/n):";
       cin>>c;
     }while(c=='y'||c=='Y');
     if(c=='n'||c=='N')
@@ -181,7 +181,7 @@ int main()
     {
       system("cls");
       s1.Searchitem();
-      cout<<"\nDo you want to search for more records?(y/n)";
+      cout<<"\nDo you want to search for some more records?(y/n)";
       cin>>c;
     }while(c=='y'||c=='Y');
     if(c=='n'||c=='N')
@@ -196,7 +196,7 @@ int main()
     {
       system("cls");
       s1.Deleteitem();
-      cout<<"\nDo you want to delete more records?(y/n):";
+      cout<<"\nDo you want to delete any more records?(y/n):";
       cin>>c;
     }while(c=='y'||c=='Y');
     if(c=='n'||c=='N')
@@ -208,14 +208,14 @@ int main()
   else if(ch==5)
   {
     cout<<"\n\n\n\n\t\t\t\t\tThankyou! for using our software...";
-    cout<<"\n\t\t\t\t\tProgrammed By:- Aman Patel";
+    cout<<"\n\t\t\t\t\tProgrammed By:- Mr. Aman Patel";
     getch();
     exit(0);
   }
 
   else
   {
-    cout<<"\nInvalid Choice! Please try again and enter a correct choice...";
+    cout<<"\nInvalid Choice! Please try again and enter a correct option...";
     getch();
     goto label;
   }
